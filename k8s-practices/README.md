@@ -21,14 +21,13 @@ Every topic directory contains three files:
 ## Prerequisites
 
 - Basic Linux, HTTP/TCP networking, and YAML knowledge.
-- Docker running locally.
+- A container runtime supported by `kind`.
 - [`kubectl`](https://kubernetes.io/docs/tasks/tools/) installed.
 - [`kind`](https://kind.sigs.k8s.io/docs/user/quick-start/) installed.
 - Git and a Bash terminal.
 
-Kubernetes does not replace container fundamentals. If images, processes,
-ports, environment variables, and volumes are new to you, start with the
-[`docker-practices`](../docker-practices/) directory.
+The exercises use images, processes, ports, environment variables, and volumes
+as Kubernetes workload concepts.
 
 ## Architecture
 
