@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: packaging-design-solution
+data:
+  approach: "Use a Kustomize base with development and production overlays."
+  secrets: "Store secrets outside Git using a secret manager."

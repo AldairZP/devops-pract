@@ -1,29 +1,34 @@
-# Repositorio de Prácticas - Administración de Servidores
+# Server Administration Practice Repository
 
-¡Bienvenido! Este repositorio contiene material de apoyo para la materia de Administración de Servidores, con un enfoque en la tecnología de contenedores.
+Welcome! This repository contains support material for server administration, focused on container technologies.
 
-## Propósito
+## Purpose
 
-El objetivo es proporcionar una serie de prácticas guiadas y autocontenidas para introducir a los estudiantes en el mundo de la contenerización utilizando Docker, Docker Compose y Kubernetes (k8s), desde los conceptos más básicos hasta técnicas más avanzadas.
+The goal is to provide guided, self-contained exercises that introduce students to containerization with Docker, Docker Compose, and Kubernetes (K8s), from basic concepts to advanced techniques.
 
-## Prerrequisitos
+## Prerequisites
 
-Antes de comenzar, asegúrate de tener instaladas las siguientes herramientas en tu sistema:
+Before starting, install the following tools:
 
--   **Docker Engine:** El motor principal para construir y ejecutar contenedores.
--   **Docker Compose:** Para orquestar aplicaciones multi-contenedor (generalmente incluido con Docker Desktop).
--   **Git:** Para clonar y gestionar las versiones de este repositorio.
--   **kind** Para crear clusters locales de Kubernetes.
+- **Docker Engine:** The main engine for building and running containers.
+- **Docker Compose:** For orchestrating multi-container applications.
+- **Git:** For cloning and managing this repository.
+- **kind:** For creating local Kubernetes clusters.
 
-## ¿Cómo Empezar?
+## Getting Started
 
-1.  Clona este repositorio en tu máquina local.
-2.  Navega al directorio `docker-practices`.
-3.  Dentro de esa carpeta, encontrarás un `README.md` que funciona como un índice detallado de todas las prácticas disponibles.
-4.  Navega al directorio `k8s-practices`
-5.  Dentro de esa carpeta, encontrarás un `README.md` que funciona como un índice detallado de todas las prácticas disponibles.
+1. Clone this repository.
+2. Open the `docker-practices` directory.
+3. Read its `README.md` for the Docker exercises.
+4. Open the `k8s-practices` directory.
+5. Read its `README.md` for the Kubernetes exercises.
 
-**[Haz clic aquí para comenzar con las prácticas de docker](./docker-practices/README.md)**
+**[Start the Docker exercises](./docker-practices/README.md)**
 
+**[Start the Kubernetes exercises](./k8s-practices/README.md)**
 
-**[Haz clic aquí para comenzar con las prácticas de k8s](./k8s-practices/README.md)**
+The Kubernetes guide includes a junior-level learning path, a cluster
+architecture model, manifest-based exercises, and a `kubectl` troubleshooting
+workflow.
+
+**[Open the Kubernetes topic roadmap](./k8s-practices/roadmap/README.md)**

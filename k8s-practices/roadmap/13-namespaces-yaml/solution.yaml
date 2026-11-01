@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: namespace-solution
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: labeled-config
+  namespace: namespace-solution
+  labels:
+    app: demo
+    environment: learning
+    version: v1
+data:
+  APP_MODE: learning
