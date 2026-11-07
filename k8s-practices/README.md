@@ -14,7 +14,8 @@ application.
 Use the [topic roadmap](./roadmap/README.md) for the complete learning path.
 Every topic directory contains three files:
 
-- `README.md`: concepts, commands, and the exercise description.
+- `README.md`: concepts, resource structure, commands, and the exercise
+  description.
 - `exercise.yaml`: an empty file for your own solution.
 - `solution.yaml`: a completed reference solution to consult after trying.
 
